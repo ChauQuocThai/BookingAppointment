@@ -10,7 +10,10 @@ module.exports = {
                 primaryKey: true,
                 type: Sequelize.INTEGER
             },
-            statusId: {
+            address: {
+                type: Sequelize.STRING
+            },
+            name: {
                 type: Sequelize.STRING
             },
             description: {
